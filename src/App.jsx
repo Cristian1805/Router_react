@@ -1,8 +1,24 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Outlet,
+  Route,
+} from 'react-router-dom'
+
 
 function App() {
   return (
-    <div>Funciona</div>
+    <Router>
+      <Outlet>
+        <Route path ="/inicio">
+          Estas en el inicio
+        </Route>
+        <Route path="/">
+          Esta es la url Base
+
+        </Route>
+      </Outlet>
+    </Router>
   );
 }
 
