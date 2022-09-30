@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import Inicio from './components/Inicio'
 import Base from './components/Base'
 
@@ -18,6 +18,17 @@ function App() {
           <Base></Base>
         </Route>
     </Router>
+  );
+}
+
+export default App;*/
+import React from 'react';
+
+function App() {
+  return (
+    <div>
+      <h1>TITULO DE PRUEBA</h1>
+    </div>
   );
 }
 
