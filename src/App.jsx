@@ -1,7 +1,9 @@
 import React from 'react';
+import Inicio from './components/Inicio'
+import Base from './components/Base'
+
 import {
   BrowserRouter as Router,
-  Outlet,
   Route,
 } from 'react-router-dom'
 
@@ -9,15 +11,12 @@ import {
 function App() {
   return (
     <Router>
-      <Outlet>
         <Route path ="/inicio">
-          Estas en el inicio
+          <Inicio></Inicio>
         </Route>
         <Route path="/">
-          Esta es la url Base
-
+          <Base></Base>
         </Route>
-      </Outlet>
     </Router>
   );
 }
