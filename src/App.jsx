@@ -1,35 +1,10 @@
-/*import React from 'react';
-import Inicio from './components/Inicio'
-import Base from './components/Base'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './index.css'
 
-import {
-  BrowserRouter as Router,
-  Route,
-} from 'react-router-dom'
-
-
-function App() {
-  return (
-    <Router>
-        <Route path ="/inicio">
-          <Inicio></Inicio>
-        </Route>
-        <Route path="/">
-          <Base></Base>
-        </Route>
-    </Router>
-  );
-}
-
-export default App;*/
-import React from 'react';
-
-function App() {
-  return (
-    <div>
-      <h1>TITULO DE PRUEBA</h1>
-    </div>
-  );
-}
-
-export default App;
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+) 
