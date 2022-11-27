@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Programa contador, para practicar un poco react con el uso de componentes
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
